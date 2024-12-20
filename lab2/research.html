@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/images/icon.png" type="image/png" sizes="32x32">
+    <title>Исследования</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <script src="assets/js/fetchResearch.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Современные исследования в области биоразнообразия</h1>
+        <nav>
+            <a href="index.html">Главная</a>
+            <a href="research.html">Исследования</a>
+            <a href="news.html">Новости</a>
+            <a href="contacts.html">Контакты</a>
+        </nav>
+    </header>
+    
+    <section class="grid-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Название</th>
+                    <th>Регион</th>
+                    <th>Дата</th>
+                    <th>Описание</th>
+                    <th>Ссылка</th>
+                </tr>
+            </thead>
+            <tbody id="research-table">
+            </tbody>
+        </table>
+
+        <div class="grid-content">
+            <div class="image-container">
+                <img src="./assets/images/research-1.jpg" alt="Изображение исследования 1" class="research-image">
+                <img src="./assets/images/research-2.jpg" alt="Изображение исследования 2" class="research-image">
+                <img src="./assets/images/research-3.jpg" alt="Изображение исследования 3" class="research-image">
+            </div>
+            <div class="journal-links">
+                <h3>Больше статей на тему экологии и биоразнообразия можно найти в журналах:</h3>
+                <ul>
+                    <li><a href="#">Journal of Biodiversity</a></li>
+                    <li><a href="#">Ecology Letters</a></li>
+                    <li><a href="#">Nature Climate Change</a></li>
+                    <li><a href="#">Global Change Biology</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Исследования в области биоразнообразия и экологии</p>
+    </footer>
+</body>
+</html>
